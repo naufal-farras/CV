@@ -1459,13 +1459,14 @@ header .logo a {
 .intro-info img {
 	/*height: 10rem;
 	width: 10rem;*/
+	width: 20%;
 	border-radius: 9%;
-	margin: .9rem 0 0 0;
+	margin: .12rem 0 0 0;
 	float: left;
 }
 .intro-info .lead {
 	text-align: left;
-	padding-left: 13rem;
+	padding-left: 18rem;
 }
 
 .about-content {
@@ -1529,9 +1530,11 @@ header .logo a {
 	}
 }
 @media only screen and (max-width:768px) {
-	.intro-info img {
-		height: 7.8rem;
-		width: 7.8rem;
+.intro-info img {
+		height: auto;
+		width: 12rem;
+		float: none;
+		display: inline-block;
 	}
 	.intro-info .lead {
 		padding-left: 11rem;
@@ -1556,8 +1559,8 @@ header .logo a {
 		margin-top: 3rem;
 	}
 	.intro-info img {
-		height: 6.6rem;
-		width: 6.6rem;
+		height: auto;
+		width: 12rem;
 		float: none;
 		display: inline-block;
 	}
